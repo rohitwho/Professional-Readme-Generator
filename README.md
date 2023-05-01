@@ -14,7 +14,7 @@ N/A
 * [Features](#features)
 * [Dependencies](#require)
 * [Language and Technology Used](#usage)
-* [Installation](#installation)
+* [Installation](#Installing)
 * [Contributors](#contributors)
 * [Testing](#testing)
 * [Questions](#questions)
