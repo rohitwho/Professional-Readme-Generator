@@ -1,14 +1,14 @@
-# Professional Readme Gen
+# Professional Readme Generator
 ![Github license](https://img.shields.io/badge/license-MIT-red.svg)
 [License](https://github.com/jeff-k/jeff-k-github/blob/master/LICENSE)
 ## License
 
 
 ## Description
-does a lot of cool things
+The Purpose of this Project is for the User To Generate a Professional Looking ReadMe.Md File just with the help of command line Interface and set the contents Accordingly. 
 
 ## Deployed Application URL
-n/a
+N/A
 
 ## Table of Content
 * [Features](#features)
@@ -20,31 +20,29 @@ n/a
 * [Questions](#questions)
 
 ## Screenshot
-./images.pmg
+N/A
 
-## Installing Professional Readme Gen
-`bash install -npm` 
+## Installing Professional Readme Generator
+`bash git clone (http)`
 
 ## Features
-dont have any
+Generate Readme.Md File in Few Clicks.
 
 ##  Dependencies
-inquirer,filesystem
+Inquirer,File System,Path.
 
 ## Language and Technology Used
-javascript,Nodejs
+Javascript,Node.js
 
 ## Creator
 rohitwho
 
-## Contact 
-rohitnayyar54@gmail.com
-
 ## Contributors
-n/a
+NONE.
 
 ## Testing
-yes
+`npm install inquirer` 
+`npm install fs `
 
 ## Questions
-If you have encounter any issues or have any Questions  Regarding this Repo. Please send your questions [here](mailto:rohitnayyar54@gmail.com?subject=[GitHub]%20Dev%20Connect) or visit [github/rohitwho](https://github.com/rohitwho).
+If you have encounter any issues or have any Questions  Regarding this Repo. Please send your questions [here](mailto:undefined?subject=[GitHub]%20Dev%20Connect) or visit [github/rohitwho](https://github.com/rohitwho).
