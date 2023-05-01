@@ -9,7 +9,7 @@ const questions = [
   {
     type: "input",
     name: "title",
-    message: "Please Give your project a name",
+    message: "Please Give your project a Unique Title",
   },
   {
     type: "input",
@@ -19,7 +19,7 @@ const questions = [
   {
     type: "input",
     name: "screenshot",
-    message: "Please provide the relative path to the image you want to use as the screenshot."
+    message: "Please provide the relative path to the image you want to use as the Demo."
   },
   {
     type: "input",
@@ -27,16 +27,16 @@ const questions = [
     message: "Please provide a URL where a user can access your deployed application."
   },
   {
-    type:"input",
-    name:"installation",
-    message:"What are the Steps required to install your Project"
+    type: "input",
+    name: "installation",
+    message: "What are the Steps required to install your Project"
 
   },
   {
     type: "checkbox",
     name: "license",
     message: "Please select a license applicable to this project.",
-    choices: ["MIT", "APACHE2.0", "Boost1.0", "MPL2.0", "BSD2", "BSD3","None" ],
+    choices: ["MIT", "APACHE2.0", "Boost1.0", "MPL2.0", "BSD2", "BSD3", "None"],
   },
   {
     type: "input",
@@ -46,7 +46,7 @@ const questions = [
   {
     type: "input",
     name: "features",
-    message: "List some cool features about this project here.",
+    message: "Please List some features about this project.",
   },
   {
     type: "input",
@@ -56,13 +56,8 @@ const questions = [
   },
   {
     type: "input",
-    name: "link",
+    name: "creator",
     message: "Write your GitHub username.",
-  },
-  {
-    type: "input",
-    name: "email",
-    message: "Provide a valid email address.",
   },
   {
     type: "input",
@@ -85,7 +80,7 @@ function writeToFile(fileName, data) {
 // Initializing app
 function init() {
   inquirer.prompt(questions).then((responses) => {
-    console.log("Creating Professional README.md File...");
+    console.log("writing a README.md File...");
     writeToFile("./finishedproduct/Readme.md", generateMarkdown({ ...responses }));
   });
 }

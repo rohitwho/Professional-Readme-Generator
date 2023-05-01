@@ -11,16 +11,27 @@ function renderLicenseBadge(license) {
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) { }
+function renderLicenseLink(license) { 
+  if (license !== "none") {
+    return `[License](https://github.com/jeff-k/jeff-k-github/blob/master/LICENSE)`;
+  }
+  return "";
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) { }
+function renderLicenseSection(license) { 
+  if (license !== "none") {
+    return `## License`
+  }
+}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
 ${renderLicenseBadge(data.license)}
+${renderLicenseLink(data.license)}
+${renderLicenseSection(data.license)}
 
 
 ## Description
@@ -31,9 +42,9 @@ ${data.link}
 
 ## Table of Content
 * [Features](#features)
-* [Dependencies](#languagesanddependencies)
-* [Language and Technology Used] (#usage)
-* [Installation] (#installation)
+* [Dependencies](#require)
+* [Language and Technology Used](#usage)
+* [Installation](#installation)
 * [Contributors](#contributors)
 * [Testing](#testing)
 * [Questions](#questions)
@@ -41,7 +52,7 @@ ${data.link}
 ## Screenshot
 ${data.screenshot}
 
-## Installation
+## Installing ${data.title}
 ${data.installation}
 
 ## Features
@@ -54,7 +65,7 @@ ${data.require}
 ${data.usage}
 
 ## Creator
-${data.link}
+${data.creator}
 
 ## Contact 
 ${data.email}
@@ -66,7 +77,7 @@ ${data.contributors}
 ${data.test}
 
 ## Questions
-Please send your questions [here](mailto:${data.email}?subject=[GitHub]%20Dev%20Connect) or visit [github/${data.creator}](https://github.com/${data.creator}).
+If you have encounter any issues or have any Questions  Regarding this Repo. Please send your questions [here](mailto:${data.email}?subject=[GitHub]%20Dev%20Connect) or visit [github/${data.creator}](https://github.com/${data.creator}).
 `;
 }
 
