@@ -4,6 +4,7 @@ const inquirer = require("inquirer");
 const path = require("path");
 const generateMarkdown = require("./utils/generateMarkdown");
 
+
 //Creating an array of questions for user input
 const questions = [
   {
@@ -34,6 +35,7 @@ const questions = [
   },
   {
     type: "checkbox",
+  //  type: "list",
     name: "license",
     message: "Please select a license applicable to this project.",
     choices: ["MIT", "APACHE2.0", "Boost1.0", "MPL2.0", "BSD2", "BSD3", "None"],
@@ -72,16 +74,19 @@ const questions = [
   },
 ];
 
-// Writing README.md File
 function writeToFile(fileName, data) {
   return fs.writeFileSync(path.join(process.cwd(), fileName), data);
+
+  
 }
 
-// Initializing app
+// TODO: Create a function to initialize app
 function init() {
-  inquirer.prompt(questions).then((responses) => {
-    console.log("writing a README.md File...");
-    writeToFile("./finishedproduct/Readme.md", generateMarkdown({ ...responses }));
-  });
+  inquirer.prompt(questions).then((response)=>{
+console.log ("Writing Document...")
+writeToFile("./finishedproduct/Readme.md",generateMarkdown({ ...response }));
+  })
 }
+
+// Function call to initialize app
 init();
