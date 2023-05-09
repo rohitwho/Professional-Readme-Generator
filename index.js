@@ -57,6 +57,11 @@ const questions = [
       "State the languages or technologies associated with this project.",
   },
   {
+    type:"input",
+    name:"email",
+    message:"Please Enter your E-mail Address.",
+  },
+  {
     type: "input",
     name: "creator",
     message: "Write your GitHub username.",

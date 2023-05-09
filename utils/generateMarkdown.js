@@ -79,6 +79,8 @@ ${data.usage}
 ## Creator
 ${data.creator}
 
+## Contact
+${data.email}
 
 
 ## Contributors

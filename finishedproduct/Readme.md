@@ -1,14 +1,14 @@
-# Professional README Generator
+# Professional Readme Generator
 ![Github license](https://img.shields.io/badge/license-MIT-red.svg)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 
 
 ## Description
-The Purpose of this Project is to generate Readme files with the help of command line interface.
+The Purpose of this project is to create Readme file with the help of command line interface.
 
 ## Deployed Application URL
-
+N/A
 
 ## Table of Content
 * [Features](#features)
@@ -20,25 +20,26 @@ The Purpose of this Project is to generate Readme files with the help of command
 * [Questions](#questions)
 
 ## Screenshot
-None..
+N/A
 
 ## Installation
-Professional README Generator ` npm install`
+Professional Readme Generator `npm install`
 
 ## Features
-It creates Document Files with just few clicks.
+This Project will allow user to generate and customize prompts according to their requirements.
 
 ##  Dependencies
-Inquirer,FileSystem,Path.
+Inquirer,Filesystem,Path.
 
 ## Language and Technology Used
-Javascript,Node.js
+Javascript,Node.js.
 
 ## Creator
 rohitwho
 
-## Contact 
-undefined
+## Contact
+rohitnayyar54@gmail.com
+
 
 ## Contributors
 None
@@ -51,4 +52,4 @@ Licensed under the MIT license
 
 
 ## Questions
-If you have encounter any issues or have any Questions  Regarding this Repo. Please send your questions [here](mailto:undefined?subject=[GitHub]%20Dev%20Connect) or visit [github/rohitwho](https://github.com/rohitwho).
+If you have encounter any issues or have any Questions  Regarding this Repo. Please send your questions [here](mailto:rohitnayyar54@gmail.com?subject=[GitHub]%20Dev%20Connect) or visit [github/rohitwho](https://github.com/rohitwho).
