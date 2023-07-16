@@ -7,8 +7,6 @@
 ## Description
 The Purpose of this Project is to generate Readme files with the help of command line interface.
 
-## Deployed Application URL
-https://rohitwho.github.io/Professional-Readme-Generator/
 
 
 ## Table of Content
